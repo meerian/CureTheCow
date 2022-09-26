@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1054880505044910295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1054880505044910293}
+  - component: {fileID: 1054880505044910294}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1054880505044910293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054880505044910295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 592.0428, y: 447.23343, z: -26.259007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1054880505044910294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054880505044910295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4f8971ca04e274ebe5979770b917ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: mouseover
+    clip: {fileID: 8300000, guid: f0bc1ffb47d7afe4cbda46db5a222997, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 0.6
+    source: {fileID: 0}
+  - name: mousedown
+    clip: {fileID: 8300000, guid: cf06a77ce6c4cb245b7b4ef5ff0c7922, type: 3}
+    loop: 0
+    volume: 0.15
+    pitch: 1.1
+    source: {fileID: 0}
+  - name: gamemusic
+    clip: {fileID: 8300000, guid: 4d3d3083c2eb3234cb2a7f283c9f47b0, type: 3}
+    loop: 1
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: castrod
+    clip: {fileID: 8300000, guid: be9e9baf32f8af947a46a6fb97e30ff2, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 0.5
+    source: {fileID: 0}
+  - name: caninteract
+    clip: {fileID: 8300000, guid: 5b64c26bafe0398448f05a54ffd240be, type: 3}
+    loop: 0
+    volume: 0.1
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: hoehit
+    clip: {fileID: 8300000, guid: 6cc374ad56dbd6d4ab502bdb3f463482, type: 3}
+    loop: 0
+    volume: 0.05
+    pitch: 0.9
+    source: {fileID: 0}
+  - name: treeharvest
+    clip: {fileID: 8300000, guid: ea6e16e5c2f953d46a88e7b34c149007, type: 3}
+    loop: 1
+    volume: 0.2
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: positive
+    clip: {fileID: 8300000, guid: 676552475f724474381d28e6fc7cd339, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: negative
+    clip: {fileID: 8300000, guid: 79fdf8173ee53dd40b020aa8d43679d1, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 0.8
+    source: {fileID: 0}
+  - name: impact
+    clip: {fileID: 8300000, guid: 043e26b0bd1011749a079ab5d0def30e, type: 3}
+    loop: 0
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+  - name: neutral
+    clip: {fileID: 8300000, guid: 8ca78de1a8dc44b48bf61a4f10f8ce04, type: 3}
+    loop: 0
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+  - name: walk
+    clip: {fileID: 8300000, guid: c7422a9b1f33b30408e9260c21a08576, type: 3}
+    loop: 0
+    volume: 0.1
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: moo
+    clip: {fileID: 8300000, guid: e8a5637b1cb3f8447bc21d3480c55d42, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: gamewin
+    clip: {fileID: 8300000, guid: 2f25a85acd8a4f84eabfb53481417722, type: 3}
+    loop: 0
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  isMuted: 0
